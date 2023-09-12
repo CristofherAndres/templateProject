@@ -20,5 +20,6 @@ from primeraApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('template/',views.llamarTemplate)
+    path('template/',views.llamarTemplate),
+    path('infoUsuario/',views.infoUsuario)
 ]
